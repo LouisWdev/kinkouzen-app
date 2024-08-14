@@ -33,7 +33,7 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
                </p>
            </article>
         </div>
-
+        {/* BANK CARD ICON CONTAINER */}
         <div className='bank-card_icon'>
           <Image 
             src="/icons/Paypass.svg"
