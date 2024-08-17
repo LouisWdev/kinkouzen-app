@@ -15,7 +15,8 @@ const DoughnutChart = ({ accounts }: DoughnutChartProps) => {
     ],
     labels: ['Bank 1', 'Bank2', 'Bank3']
   }
-
+  
+  // Doughnut chart
   return <Doughnut 
     data={data} 
     options={{
