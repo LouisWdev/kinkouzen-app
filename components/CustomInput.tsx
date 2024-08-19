@@ -13,6 +13,7 @@ interface CustomInput {
     placeholder: string
 }
 
+// Custom Input decleration
 const CustomInput = ( { control, name, label, placeholder }: CustomInput ) => {
   return (
     <FormField
