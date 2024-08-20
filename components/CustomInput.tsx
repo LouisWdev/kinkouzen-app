@@ -16,6 +16,7 @@ interface CustomInput {
 // Custom Input decleration
 const CustomInput = ( { control, name, label, placeholder }: CustomInput ) => {
   return (
+    // Form field
     <FormField
         control={control}
         name={name}
