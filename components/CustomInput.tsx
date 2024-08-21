@@ -22,6 +22,7 @@ const CustomInput = ( { control, name, label, placeholder }: CustomInput ) => {
         name={name}
         render={({ field }) => (
           <div className='form-item'>
+            {/* Formlabel */}
             <FormLabel className='form-label'>
                   {label}
             </FormLabel>
